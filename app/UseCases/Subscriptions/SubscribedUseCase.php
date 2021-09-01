@@ -2,9 +2,6 @@
 
 namespace App\UseCases\Subscriptions;
 
-use App\Models\User;
-use App\Models\Workshop;
-
 class SubscribedUseCase {
 
     private $userRepository;
