@@ -41,4 +41,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function subscriptions()
+    {
+        return $this->belongsToMany(Workshop::class, 'subscriptions', 'subscriber_id', 'workshop_id');
+    }
+
+    public function isSubscribed($workshopId)
+    {
+        if ($this->subscriptions()->find($workshopId)) {
+            return true;
+        } return false;
+    }
 }
