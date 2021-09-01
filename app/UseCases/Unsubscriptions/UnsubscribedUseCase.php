@@ -1,6 +1,6 @@
 <?php
 
-namespace App\UseCases\Subscriptions;
+namespace App\UseCases\Unsubscriptions;
 
 class UnsubscribedUseCase {
 

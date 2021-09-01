@@ -7,7 +7,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 use App\UseCases\Subscriptions\SubscribedUseCase;
-use App\UseCases\Subscriptions\UnsubscribedUseCase;
+use App\UseCases\Unsubscriptions\UnsubscribedUseCase;
 use Illuminate\Support\Facades\Auth;
 
 class Controller extends BaseController

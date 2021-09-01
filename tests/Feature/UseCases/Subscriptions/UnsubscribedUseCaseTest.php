@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 use App\Models\User;
 use App\Models\Workshop;
-use App\UseCases\Subscriptions\UnsubscribedUseCase;
+use App\UseCases\Unsubscriptions\UnsubscribedUseCase;
 
 class UnsubscribedUseCaseTest extends TestCase
 {
